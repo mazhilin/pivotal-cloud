@@ -24,6 +24,26 @@
                 <artifactId>pivotal-cloud-admin-api</artifactId>
                 <version>${pivotal-cloud.version}</version>
             </dependency>
+            <dependency>
+                <groupId>com.pivotal.cloud</groupId>
+                <artifactId>pivotal-cloud-applice-api</artifactId>
+                <version>${pivotal-cloud.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.pivotal.cloud</groupId>
+                <artifactId>pivotal-cloud-business-api</artifactId>
+                <version>${pivotal-cloud.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.pivotal.cloud</groupId>
+                <artifactId>pivotal-cloud-identity-api</artifactId>
+                <version>${pivotal-cloud.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.pivotal.cloud</groupId>
+                <artifactId>pivotal-cloud-support-api</artifactId>
+                <version>${pivotal-cloud.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 

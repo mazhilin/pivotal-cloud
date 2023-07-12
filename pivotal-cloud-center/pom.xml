@@ -24,6 +24,26 @@
                 <artifactId>pivotal-cloud-admin-center</artifactId>
                 <version>${pivotal-cloud.version}</version>
             </dependency>
+            <dependency>
+                <groupId>com.pivotal.cloud</groupId>
+                <artifactId>pivotal-cloud-applice-center</artifactId>
+                <version>${pivotal-cloud.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.pivotal.cloud</groupId>
+                <artifactId>pivotal-cloud-business-center</artifactId>
+                <version>${pivotal-cloud.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.pivotal.cloud</groupId>
+                <artifactId>pivotal-cloud-identity-center</artifactId>
+                <version>${pivotal-cloud.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.pivotal.cloud</groupId>
+                <artifactId>pivotal-cloud-support-center</artifactId>
+                <version>${pivotal-cloud.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 

@@ -24,6 +24,26 @@
                 <artifactId>pivotal-cloud-admin-domain</artifactId>
                 <version>${pivotal-cloud.version}</version>
             </dependency>
+            <dependency>
+                <groupId>com.pivotal.cloud</groupId>
+                <artifactId>pivotal-cloud-applice-domain</artifactId>
+                <version>${pivotal-cloud.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.pivotal.cloud</groupId>
+                <artifactId>pivotal-cloud-business-domain</artifactId>
+                <version>${pivotal-cloud.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.pivotal.cloud</groupId>
+                <artifactId>pivotal-cloud-identity-domain</artifactId>
+                <version>${pivotal-cloud.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.pivotal.cloud</groupId>
+                <artifactId>pivotal-cloud-support-domain</artifactId>
+                <version>${pivotal-cloud.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
