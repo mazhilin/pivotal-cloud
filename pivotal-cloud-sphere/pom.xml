@@ -29,6 +29,11 @@
         </dependency>
     </dependencies>
 
+    <modules>
+        <module>pivotal-cloud-gateway-sphere</module>
+        <module>pivotal-cloud-register-sphere</module>
+    </modules>
+
     <build>
         <plugins>
             <plugin>

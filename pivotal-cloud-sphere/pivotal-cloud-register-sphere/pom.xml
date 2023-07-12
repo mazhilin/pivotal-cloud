@@ -4,13 +4,13 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.pivotal.cloud</groupId>
-        <artifactId>pivotal-cloud-api</artifactId>
+        <artifactId>pivotal-cloud-sphere</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <groupId>com.pivotal.cloud</groupId>
-    <artifactId>pivotal-cloud-admin-api</artifactId>
+    <artifactId>pivotal-cloud-register-sphere</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>pivotal-cloud-admin-api</name>
+    <name>pivotal-cloud-register-sphere</name>
     <description>Demo project for Spring Boot</description>
     <properties>
         <java.version>17</java.version>
