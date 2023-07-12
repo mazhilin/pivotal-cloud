@@ -29,6 +29,10 @@
         </dependency>
     </dependencies>
 
+    <modules>
+        <module>pivotal-cloud-admin-domain</module>
+    </modules>
+
     <build>
         <plugins>
             <plugin>
