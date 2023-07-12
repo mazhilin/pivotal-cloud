@@ -4,12 +4,14 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
 	https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
+
 	<parent>
 		<groupId>com.pivotal.cloud</groupId>
 		<artifactId>pivotal-cloud-parent</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 		<relativePath/>
 	</parent>
+
 	<groupId>com.pivotal.cloud</groupId>
 	<artifactId>pivotal-cloud-platform</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
@@ -51,106 +53,6 @@
 			<dependency>
 				<groupId>com.pivotal.cloud</groupId>
 				<artifactId>pivotal-cloud-admin-domain</artifactId>
-				<version>${pivotal-cloud.version}</version>
-			</dependency>
-
-
-			<dependency>
-				<groupId>com.pivotal.cloud</groupId>
-				<artifactId>pivotal-cloud-base-api</artifactId>
-				<version>${pivotal-cloud.version}</version>
-			</dependency>
-
-			<dependency>
-				<groupId>com.pivotal.cloud</groupId>
-				<artifactId>pivotal-cloud-base-domain</artifactId>
-				<version>${pivotal-cloud.version}</version>
-			</dependency>
-
-			<dependency>
-				<groupId>com.pivotal.cloud</groupId>
-				<artifactId>pivotal-cloud-business-api</artifactId>
-				<version>${pivotal-cloud.version}</version>
-			</dependency>
-
-			<dependency>
-				<groupId>com.pivotal.cloud</groupId>
-				<artifactId>pivotal-cloud-business-domain</artifactId>
-				<version>${pivotal-cloud.version}</version>
-			</dependency>
-
-
-			<dependency>
-				<groupId>com.pivotal.cloud</groupId>
-				<artifactId>pivotal-cloud-passport-api</artifactId>
-				<version>${pivotal-cloud.version}</version>
-			</dependency>
-
-			<dependency>
-				<groupId>com.pivotal.cloud</groupId>
-				<artifactId>pivotal-cloud-passport-domain</artifactId>
-				<version>${pivotal-cloud.version}</version>
-			</dependency>
-
-
-			<dependency>
-				<groupId>com.pivotal.cloud</groupId>
-				<artifactId>pivotal-cloud-transaction-api</artifactId>
-				<version>${pivotal-cloud.version}</version>
-			</dependency>
-
-			<dependency>
-				<groupId>com.pivotal.cloud</groupId>
-				<artifactId>pivotal-cloud-transaction-domain</artifactId>
-				<version>${pivotal-cloud.version}</version>
-			</dependency>
-
-			<dependency>
-				<groupId>com.pivotal.cloud</groupId>
-				<artifactId>pivotal-cloud-workflow-api</artifactId>
-				<version>${pivotal-cloud.version}</version>
-			</dependency>
-
-			<dependency>
-				<groupId>com.pivotal.cloud</groupId>
-				<artifactId>pivotal-cloud-workflow-domain</artifactId>
-				<version>${pivotal-cloud.version}</version>
-			</dependency>
-
-			<dependency>
-				<groupId>com.pivotal.cloud</groupId>
-				<artifactId>pivotal-cloud-system-domain</artifactId>
-				<version>${pivotal-cloud.version}</version>
-			</dependency>
-
-			<dependency>
-				<groupId>com.pivotal.cloud</groupId>
-				<artifactId>pivotal-cloud-system-api</artifactId>
-				<version>${pivotal-cloud.version}</version>
-			</dependency>
-
-
-			<dependency>
-				<groupId>com.pivotal.cloud</groupId>
-				<artifactId>pivotal-cloud-application-adapter</artifactId>
-				<version>${pivotal-cloud.version}</version>
-			</dependency>
-
-			<dependency>
-				<groupId>com.pivotal.cloud</groupId>
-				<artifactId>pivotal-cloud-authserver-adapter</artifactId>
-				<version>${pivotal-cloud.version}</version>
-			</dependency>
-
-			<dependency>
-				<groupId>com.pivotal.cloud</groupId>
-				<artifactId>pivotal-cloud-resourceserver-adapter</artifactId>
-				<version>${pivotal-cloud.version}</version>
-			</dependency>
-
-			<dependency>
-				<groupId>com.pivotal.cloud</groupId>
-				<artifactId>pivotal-cloud-logger-adapter</artifactId>
 				<version>${pivotal-cloud.version}</version>
 			</dependency>
 
