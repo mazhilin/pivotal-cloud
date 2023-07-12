@@ -4,29 +4,17 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.pivotal.cloud</groupId>
-        <artifactId>pivotal-cloud-platform</artifactId>
+        <artifactId>pivotal-cloud-domain</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <groupId>com.pivotal.cloud</groupId>
-    <artifactId>pivotal-cloud-api</artifactId>
+    <artifactId>pivotal-cloud-applice-domain</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>pivotal-cloud-api</name>
+    <name>pivotal-cloud-applice-domain</name>
     <description>Demo project for Spring Boot</description>
-    <packaging>pom</packaging>
     <properties>
         <java.version>17</java.version>
     </properties>
-
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>com.pivotal.cloud</groupId>
-                <artifactId>pivotal-cloud-admin-api</artifactId>
-                <version>${pivotal-cloud.version}</version>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
-
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -39,14 +27,6 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
-    <modules>
-        <module>pivotal-cloud-admin-api</module>
-        <module>pivotal-cloud-applice-api</module>
-        <module>pivotal-cloud-business-api</module>
-        <module>pivotal-cloud-identity-api</module>
-        <module>pivotal-cloud-support-api</module>
-    </modules>
 
     <build>
         <plugins>
