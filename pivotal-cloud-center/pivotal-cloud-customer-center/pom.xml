@@ -8,10 +8,10 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <groupId>com.pivotal.cloud</groupId>
-    <artifactId>pivotal-cloud-admin-center</artifactId>
+    <artifactId>pivotal-cloud-customer-center</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>pivotal-cloud-admin-center</name>
-    <description>Pivotal Cloud :: Admin Center Project</description>
+    <name>pivotal-cloud-customer-center</name>
+    <description>Pivotal Cloud :: Customer Center Project</description>
     <packaging>jar</packaging>
 
 </project>

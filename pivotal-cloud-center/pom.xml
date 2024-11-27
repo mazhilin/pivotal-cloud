@@ -64,9 +64,12 @@
         <module>pivotal-cloud-admin-center</module>
         <module>pivotal-cloud-applice-center</module>
         <module>pivotal-cloud-business-center</module>
+        <module>pivotal-cloud-customer-center</module>
         <module>pivotal-cloud-identity-center</module>
+        <module>pivotal-cloud-material-center</module>
+        <module>pivotal-cloud-metabase-center</module>
         <module>pivotal-cloud-support-center</module>
+        <module>pivotal-cloud-tools-center</module>
     </modules>
-
 
 </project>
