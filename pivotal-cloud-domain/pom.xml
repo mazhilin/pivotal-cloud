@@ -64,8 +64,11 @@
         <module>pivotal-cloud-admin-domain</module>
         <module>pivotal-cloud-applice-domain</module>
         <module>pivotal-cloud-business-domain</module>
+        <module>pivotal-cloud-customer-domain</module>
         <module>pivotal-cloud-identity-domain</module>
+        <module>pivotal-cloud-metabase-domain</module>
         <module>pivotal-cloud-support-domain</module>
+        <module>pivotal-cloud-tools-domain</module>
     </modules>
 
 
