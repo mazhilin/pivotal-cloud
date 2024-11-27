@@ -64,8 +64,11 @@
         <module>pivotal-cloud-admin-api</module>
         <module>pivotal-cloud-applice-api</module>
         <module>pivotal-cloud-business-api</module>
+        <module>pivotal-cloud-customer-api</module>
         <module>pivotal-cloud-identity-api</module>
+        <module>pivotal-cloud-metabase-api</module>
         <module>pivotal-cloud-support-api</module>
+        <module>pivotal-cloud-tools-api</module>
     </modules>
 
 
