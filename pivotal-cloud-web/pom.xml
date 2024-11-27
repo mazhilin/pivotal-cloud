@@ -30,7 +30,6 @@
     </dependencies>
 
     <modules>
-        <module>pivotal-cloud-admin-web</module>
         <module>pivotal-cloud-console-web</module>
         <module>pivotal-cloud-passport-web</module>
         <module>pivotal-cloud-schedule-web</module>
